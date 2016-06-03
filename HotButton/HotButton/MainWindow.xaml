@@ -1,0 +1,23 @@
+﻿<Window x:Class="AM_CONTROL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:HBtn="clr-namespace:AM_CONTROL"
+        Title="MainWindow" Height="350" Width="525" Background="Black">
+    <Window.Resources>
+        <BitmapImage x:Key="IDI_TOOLBAR_NEWTEST1" UriSource="pack://application:,,,/res/icon_NewTest.png"/>
+        <Image x:Key="IDI_TOOLBAR_NEWTEST" Source="pack://application:,,,/res/icon_NewTest.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_HOTNEWTEST" Source="pack://application:,,,/res/icon_hotNewTest.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_DISABLENEWTEST" Source="pack://application:,,,/res/icon_disableNewTest.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_BACK" Source="pack://application:,,,/res/icon_back.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_HOTBACK" Source="pack://application:,,,/res/icon_hotback.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_DISABLEBACK" Source="pack://application:,,,/res/icon_disableback.png"  Width="32" Height="32"/>
+    </Window.Resources>
+    <StackPanel >
+        <Image Width="32" Height="32" Source="{StaticResource IDI_TOOLBAR_NEWTEST1}"/>
+        <Button Content="Good"/>
+        <HBtn:HotButton Width="32" Height="32" Margin="5" NormalImage="{StaticResource IDI_TOOLBAR_NEWTEST}"
+                        HotImage="{StaticResource IDI_TOOLBAR_HOTNEWTEST}"/>
+        <HBtn:HotButton Width="32" Height="32" Margin="5" NormalImage="{StaticResource IDI_TOOLBAR_BACK}"
+                        HotImage="{StaticResource IDI_TOOLBAR_HOTBACK}"/> 
+    </StackPanel>
+</Window>
