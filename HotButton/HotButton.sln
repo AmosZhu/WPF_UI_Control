@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotButton", "HotButton\HotButton.csproj", "{8AB0B7FB-774C-473E-B2FC-3ECB73EFABC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotButton", "HotButton\HotButton.csproj", "{841A72B3-C6A5-4B41-9D36-C31B51DDE747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotButtonTest", "HotButtonTest\HotButtonTest.csproj", "{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AB0B7FB-774C-473E-B2FC-3ECB73EFABC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AB0B7FB-774C-473E-B2FC-3ECB73EFABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AB0B7FB-774C-473E-B2FC-3ECB73EFABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AB0B7FB-774C-473E-B2FC-3ECB73EFABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841A72B3-C6A5-4B41-9D36-C31B51DDE747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841A72B3-C6A5-4B41-9D36-C31B51DDE747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841A72B3-C6A5-4B41-9D36-C31B51DDE747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841A72B3-C6A5-4B41-9D36-C31B51DDE747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B00FE90-B79B-45DD-94FD-D7A08D3182CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

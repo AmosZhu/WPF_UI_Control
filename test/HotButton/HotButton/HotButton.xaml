@@ -7,6 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
+        <Image x:Key="IDI_TOOLBAR_NEWTEST" Source="res/icon_NewTest.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_HOTNEWTEST" Source="res/icon_hotNewTest.png"  Width="32" Height="32"/>
+        <Image x:Key="IDI_TOOLBAR_DISABLENEWTEST" Source="res/icon_disableNewTest.png"  Width="32" Height="32"/>
+
         <Style x:Key="btnStyle" TargetType="Button">
             <Setter Property="Template">
                 <Setter.Value>
@@ -25,7 +29,7 @@
                     <Setter Property="Background" Value="Transparent"/>
                 </Trigger>
                 <Trigger Property="IsEnabled" Value="false">
-                    <Setter Property="Content" Value="{Binding Path=DisableImage, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+                    <Setter Property="Content" Value="{Binding Path=(HBtn:HotButton.DisableImage), RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
