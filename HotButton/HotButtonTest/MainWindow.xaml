@@ -16,7 +16,8 @@
         <Image Width="32" Height="32" Source="{StaticResource IDI_TOOLBAR_NEWTEST1}"/>
         <Button Content="Good"/>
         <AM_UI:HotButton Width="32" Height="32" Margin="5" NormalImage="{StaticResource IDI_TOOLBAR_NEWTEST}"
-                        HotImage="{StaticResource IDI_TOOLBAR_HOTNEWTEST}"/>
+                        HotImage="{StaticResource IDI_TOOLBAR_HOTNEWTEST}"
+                        Click="Btn1Click"/>
         <AM_UI:HotButton Width="32" Height="32" Margin="5" NormalImage="{StaticResource IDI_TOOLBAR_BACK}"
                         HotImage="{StaticResource IDI_TOOLBAR_HOTBACK}"/> 
     </StackPanel>

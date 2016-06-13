@@ -56,6 +56,15 @@ namespace AM_CONTROL
         public static readonly DependencyProperty DisableImageProperty =
             DependencyProperty.Register("DisableImage", typeof(Image), typeof(HotButton), new PropertyMetadata((Image)null));
 
+        public event RoutedEventHandler Click;
+        private void OnButtonClick(object sender, RoutedEventArgs e)
+        {
+            if(this.Click!=null)
+            {
+                this.Click(this, e);
+            }
+        }
+
 
     }
 }

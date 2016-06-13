@@ -93,7 +93,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\HotButton\HotButton.csproj">
       <Project>{841a72b3-c6a5-4b41-9d36-c31b51dde747}</Project>

@@ -25,5 +25,12 @@ namespace AM_CONTROL
         {
             InitializeComponent();
         }
+
+
+        private void Btn1Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Response!");
+        }
+
     }
 }

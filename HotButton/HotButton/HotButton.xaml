@@ -31,6 +31,6 @@
         </Style>
     </UserControl.Resources>
     <StackPanel Orientation="Vertical">
-        <Button Width="{Binding Path=Width}" Height="{Binding Path=Height}" Style="{DynamicResource btnStyle}"/>
+        <Button Width="{Binding Path=Width}" Height="{Binding Path=Height}" Style="{DynamicResource btnStyle}" Click="OnButtonClick"/>
     </StackPanel>
 </UserControl>
